@@ -18,34 +18,6 @@ Los modelos estudiados fueron:
 
 ---
 
-## Contenido del repositorio
-
-```
-├── MATLAB/
-│   ├── Simulador/
-│   ├── Generación_Dataset/
-│   └── MonteCarlo/
-│
-├── Python/
-│   ├── Dataset/
-│   ├── Feature_Engineering/
-│   ├── RandomForest/
-│   ├── MLP/
-│   ├── XGBoost/
-│   ├── Optimización/
-│   ├── Evaluación/
-│   └── Benchmark/
-│
-├── Resultados/
-│   ├── Figuras/
-│   ├── Métricas/
-│   └── Modelos/
-│
-├── README.md
-└── requirements.txt
-```
-
----
 
 ## Ingeniería de características
 
