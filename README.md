@@ -18,6 +18,16 @@ Los modelos estudiados fueron:
 
 ---
 
+## Datasets utilizados
+
+El dataset principal utilizado para este proyecto, del cual se obtienen y recopilan los datos que se pueden observar a lo largo del Capítulo 5 del documento de tesis, fue "dataset_vlc_z_variable_10k_FINAL_V5.csv".
+
+El dataset "dataset_vlc_z_constante_10k_FINAL_V5.csv" fue utilizado para obtener los datos del escenario Z constante y que se pueden observar dentro de la sección Anexo A.2.
+
+El dataset "dataset_vlc_z_variable_10k_FINAL_v6.csv" fue utilizado como un conjunto de datos de validación para la sección 5.3.1 del Capítulo 5.
+
+---
+
 
 ## Ingeniería de características
 
