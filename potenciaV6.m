@@ -194,7 +194,7 @@ function [m_HLoS,dm]=HLoS_direct(x_i,y_i,z_i,x_j,y_j,z_j,Ap,eta,alpha_i,alpha_j,
     dm= d1/c;
     dm=vpa(dm);
     dm=double(subs(dm));
-    if (incidencia>=0) && (incidencia<=2*fov)
+    if (incidencia>=0) && (incidencia<=fov)
         m_HLoS=abs(((m+1)*Ap/(2*3.1416*d1^2))*(p1^m/d1)*(p2/d2)*g* Pij);
         m_HLoS=vpa(m_HLoS);
         m_HLoS=double(subs(m_HLoS));
@@ -269,7 +269,7 @@ function s_v= sv(x1,y1,z1,x2,y2,z2,fv)
     end
 end
 function g=gain(eta,incide,incide_r,fov)
-    if  (incide_r<=2*fov) && (incide_r>=0)
+    if  (incide_r<=fov) && (incide_r>=0)
         g=(eta^2)/(sind(fov)^2);
     else
         g=0;
